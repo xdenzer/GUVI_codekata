@@ -7,6 +7,9 @@ int main()
 	printf("Enter a number : ");
 	scanf("%d", &num);
 	
+	if(num == 0)
+		digits++;
+	
 	while(num != 0)
 	{
 		num = num/10;
